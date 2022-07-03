@@ -3,7 +3,7 @@
 # Description
 
 Proposition d'une solution permettant le transfert de fichiers chiffrés de bout en bout.  
-Nous proposons ici une solution utilisant les langages WEB, nodeJS, expressJS, et les services de stockages redis et web3js
+Nous proposons ici une solution utilisant les langages WEB, nodeJS, expressJS, et les services de stockages MARIADB et web3js
 
 Projet du Mastercamp 2022 réalisé dans le cadre de la fillière sécurité & réseau.
 Réalisé par l'équipe S.M.B. :
