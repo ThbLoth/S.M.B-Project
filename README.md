@@ -22,7 +22,7 @@ Réalisé par l'équipe S.M.B. :
 3)Lancer Visual Studio Code et assurer vous d'avoir NODE et npm d'installés sur votre ordinateur (Suivre ce lien si node n'est pas installé : https://nodejs.org/en/)  
 4)Ouvrir avec VSC le dossier ou votre site est décompressé.  
 5)Ouvrir un terminal VSC et taper la commande : "npm start"  
-6)Rendez vous sur ce lien : http://localhost:3000/log/sign
+6)Rendez vous sur ce lien : http://localhost:3000/log/sign  
 7)Testez !  
 
 # Bugs Connus
