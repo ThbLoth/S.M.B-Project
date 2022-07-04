@@ -27,4 +27,6 @@ Réalisé par l'équipe S.M.B. :
 
 # Bugs Connus
 Voici une liste de bugs connus sur le site. Cette liste se mettra à jour au fur et à mesure des découvertes :  
-- Seuls les fichiers .txt, .png, .jpg, .jpeg et .pdf sont traités actuellement (04/07/2022)
+- Seuls les fichiers .txt, .png, .jpg et .pdf sont traités actuellement (04/07/2022)
+- Les fichiers ne doivent pas avoir d'espace dans leurs noms
+- La page de login peut de temps en temps dysfonctionner ammenant une erreur : *ERR_HTTP_HEADERS_SENT*
