@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title> SMB's cypher</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+<style>
+ body{
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-image:url("images/back.jpg");
+    background-color: bisque;
+}
+
+    h1{
+    font-size:50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top:3%;
+}
+
+#leftPart{
+width: 700px;
+position: absolute;
+left:20%;
+top:50%;
+background-color:rgb(236, 232, 232);
+transform: translate(-50%, -50%);
+border-radius: 15px;
+box-shadow: 1px 3px 10px;
+}
+
+#rightPart{
+width: 700px;
+position: absolute;
+left:70%;
+top:50%;
+background-color:rgb(236, 232, 232);
+transform: translate(-50%, -50%);
+border-radius: 15px;
+box-shadow: 1px 3px 10px;
+}
+
+.box{
+    margin-top:5%;
+    margin-bottom: 2%;
+}
+
+.sendMail{
+    margin-bottom: 5%;
+}
+
+</style>
+      <body>
+        <h1> Send / Receive menu</h1>
+        <hr>
+        <div id="leftPart">
+            <form name="file" action="/main/getFile" method="post" enctype="multipart/form-data">
+                <p class="box"> Do you want to send a file ?</p>
+                <input type="file" id="fileId" name="depot">
+                <p> To which one ? Put the e-mail adress please</p>
+                <input type="email" placeholder="exemple@mail.com" id="email" name="mail" required>
+                <button type="submit" class="sendMail"> Send </button>
+            </form>
+        </div>
+
+        <div id="rightPart">
+            <form name="getFile" action="/main/dlFile" method="post">
+                <p class="box"> Do you want to receive a file ?</p>
+                <p>Enter your password to get your file</p>
+                <input type="password" placeholder="password" id="password" name="password" required>
+                <button type="submit" class="sendMail"> Valid </button>
+                <br>
+            </form>
+            
+            <form method="get" action="/main/test">
+                <button type="submit">Download my file(s)</button>
+            </form>
+
+            </div>
+      </body>
+</html>
