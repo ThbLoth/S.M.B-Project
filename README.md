@@ -34,3 +34,4 @@ Voici une liste de bugs connus sur le site. Cette liste se mettra à jour au fur
 - Bug sur le chiffrage des .jpg (04/07/2022)
 - Le déchiffrage des .txt ne fonctionne pas
 - Le téléchargement des fichiers peut être un peu long
+- Déchiffrer plusieurs fichiers à la fois ne fonctionne pas
