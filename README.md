@@ -15,6 +15,8 @@ Réalisé par l'équipe S.M.B. :
   - Thibault LOTH
   
 # Architecture
+![image](https://user-images.githubusercontent.com/73190082/177717398-edce9f3a-86d2-4cc0-8286-6c61d3b1becf.png)
+
 
 # Installation et exécution
 1)Téléchargez le zip du site à partir de github.   
