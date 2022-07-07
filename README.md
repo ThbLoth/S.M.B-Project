@@ -20,12 +20,12 @@ Réalisé par l'équipe S.M.B. :
 1)Téléchargez le zip du site à partir de github.   
 2)Décompresser le fichier dans un dossier.  
 3)Lancer Visual Studio Code et assurer vous d'avoir NODE et npm d'installés sur votre ordinateur (Suivre ce lien si node n'est pas installé : https://nodejs.org/en/)  
-4)Ouvrir avec VSC le dossier ou votre site est décompressé.
-5)Installer imcrypt avec la commande npm install imcrypt (dans le dossier où le site est stocké)
-6)Installer QPDF (suivre les premières minutes de cette vidéo : https://www.youtube.com/watch?v=b9gCULt-OV0
-6.5) Videz les dossiers downloaded, encrypted,uploads & FinalFiles
-7)Ouvrir un terminal VSC et taper la commande : "npm start"  
-8)Rendez vous sur ce lien : http://localhost:3000/log/sign  
+4)Ouvrir avec VSC le dossier ou votre site est décompressé.  
+5)Installer imcrypt avec la commande npm install imcrypt (dans le dossier où le site est stocké)  
+6)Installer QPDF (suivre les premières minutes de cette vidéo : https://www.youtube.com/watch?v=b9gCULt-OV0  
+6.5) Videz les dossiers downloaded, encrypted,uploads & FinalFiles  
+7)Ouvrir un terminal VSC et taper la commande : "npm start"    
+8)Rendez vous sur ce lien : http://localhost:3000/log/sign    
 9)Testez !  
 
 # Bugs Connus
