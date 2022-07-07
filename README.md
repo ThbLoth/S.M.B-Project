@@ -30,6 +30,16 @@ Réalisé par l'équipe S.M.B. :
 8)Rendez vous sur ce lien : http://localhost:3000/log/sign    
 9)Testez !  
 
+# Comment utiliser le site ?
+Pour envoyer un fichier :  
+- Choisir le fichier à envoyer
+- Choisir le destinataire via son mail (il doit avoir un compte sur le site)  
+
+Pour recevoir un fichier :
+- Rentrer son mot de passe  
+- Attendre (en vérifiant la console) que le téléchargement soit terminé  
+- Cliquer sur "Download my file" pour récupérer son fichier
+
 # Bugs Connus
 Voici une liste de bugs connus sur le site. Cette liste se mettra à jour au fur et à mesure des découvertes :  
 - Seuls les fichiers .txt, .png, .jpg et .pdf sont traités actuellement (04/07/2022)
